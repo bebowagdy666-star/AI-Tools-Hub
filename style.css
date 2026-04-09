@@ -22,7 +22,7 @@ section {
     padding: 60px 0;
 }
 
-/* Navbar */
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -67,7 +67,7 @@ section {
     font-size: 18px;
 }
 
-/* Hero */
+
 .hero {
     padding-top: 100px;
     text-align: center;
@@ -84,7 +84,7 @@ section {
     margin-bottom: 20px;
 }
 
-/* Buttons */
+
 .btn {
     padding: 10px 18px;
     background: #222;
@@ -98,7 +98,7 @@ section {
     background: #000;
 }
 
-/* Search */
+
 .search-box {
     display: flex;
     align-items: center;
@@ -117,7 +117,7 @@ section {
     width: 100%;
 }
 
-/* Grid */
+
 .categories-grid,
 .tools-grid {
     display: grid;
@@ -125,7 +125,6 @@ section {
     gap: 15px;
 }
 
-/* Cards */
 .category-card,
 .tool-card {
     background: #fff;
@@ -146,7 +145,7 @@ section {
     color: #666;
 }
 
-/* Tool extra */
+
 .tool-footer {
     margin-top: 10px;
     display: flex;
@@ -154,7 +153,7 @@ section {
     font-size: 13px;
 }
 
-/* Footer */
+
 .footer {
     background: #fff;
     border-top: 1px solid #ddd;
@@ -209,7 +208,7 @@ section {
     color: #777;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;

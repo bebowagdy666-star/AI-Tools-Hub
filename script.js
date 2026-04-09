@@ -9,7 +9,7 @@ const paidContainer = document.querySelector('.paid-tools .tools-grid');
 
 const yearSpan = document.getElementById('current-year');
 
-/* Data */
+
 const categories = [
   { title:'Coding', desc:'Tools for writing and fixing code', icon:'fas fa-code', cat:'coding' },
   { title:'Images', desc:'Create and edit images', icon:'fas fa-image', cat:'photo' },
@@ -36,7 +36,7 @@ const paidTools = [
   { name:'Jasper', cat:'business', desc:'Marketing tool', url:'https://www.jasper.ai' }
 ];
 
-/* Init */
+
 document.addEventListener('DOMContentLoaded', function() {
   if (yearSpan) {
     yearSpan.textContent = new Date().getFullYear();
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
   showTools(paidTools, paidContainer);
 });
 
-/* Show categories */
+
 function showCategories() {
   categories.forEach(item => {
     const div = document.createElement('div');
@@ -68,7 +68,7 @@ function showCategories() {
   });
 }
 
-/* Show tools */
+
 function showTools(list, container) {
   list.forEach(tool => {
     const div = document.createElement('div');
@@ -86,7 +86,7 @@ function showTools(list, container) {
   });
 }
 
-/* Filter */
+
 function filterTools(category) {
   const cards = document.querySelectorAll('.tool-card');
 
@@ -99,7 +99,7 @@ function filterTools(category) {
   });
 }
 
-/* Search */
+
 if (searchInput) {
   searchInput.addEventListener('input', function() {
     const value = this.value.toLowerCase();
@@ -115,7 +115,7 @@ if (searchInput) {
   });
 }
 
-/* Mobile menu */
+
 if (menuBtn) {
   menuBtn.addEventListener('click', function() {
     navLinks.classList.toggle('active');
